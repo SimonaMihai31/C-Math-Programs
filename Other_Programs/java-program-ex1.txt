@@ -1,0 +1,28 @@
+// Java program to find number of 
+// spanning trees 
+
+import java.io.*; 
+
+class GFG { 
+
+// function that calculates the 
+// total Spanning tree 
+static int Spanning(int vertices) 
+{ 
+	int result = 0; 
+
+	result = vertices; 
+	return result; 
+} 
+
+// Driver code 
+	public static void main (String[] args) { 
+	int vertices = 5; 
+
+	System.out.println("Spanning tree = " + Spanning(vertices)); 
+	} 
+} 
+
+
+Output:
+Spanning tree = 4
